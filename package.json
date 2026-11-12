@@ -3,9 +3,9 @@
   "version": "1.0.1",
   "private": true,
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
+    "dev": "node init && next dev",
+    "build": "node init && next build",
+    "start": "node init && next start",
     "lint": "eslint ."
   },
   "author": {
@@ -63,7 +63,7 @@
   "devDependencies": {
     "@types/node": "^26",
     "@types/react": "19.3.0",
-    "@types/react-dom": "19.2.5",
+    "@types/react-dom": "19.3.0",
     "@types/three": "^0.186.0",
     "autoprefixer": "^10.6.0",
     "eslint": "^10.13.0",

@@ -1,0 +1,75 @@
+{
+  "name": "elite-folio",
+  "version": "1.0.1",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint ."
+  },
+  "author": {
+    "name": "Elite Folio",
+    "email": "contact@elitefolio.dev",
+    "url": "https://elitefolio.dev"
+  },
+  "description": "Elite Folio - Modern Space-Themed 3D Portfolio & Digital Showcase built with Next.js, Three.js, and Tailwind CSS.",
+  "keywords": [
+    "reactjs",
+    "nextjs",
+    "vercel",
+    "react",
+    "elite-folio",
+    "space-portfolio",
+    "portfolio",
+    "react-icons",
+    "cn",
+    "clsx",
+    "3d-portfolio",
+    "3d-website",
+    "framer-motion",
+    "motion",
+    "animation",
+    "heroicons",
+    "next-themes",
+    "postcss",
+    "react-dom",
+    "tailwindcss",
+    "ui/ux",
+    "javascript",
+    "typescript"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/elite-folio/portfolio"
+  },
+  "homepage": "https://elitefolio.dev",
+  "dependencies": {
+    "@heroicons/react": "^2.2.0",
+    "@react-three/drei": "^10.7.9",
+    "@react-three/fiber": "^9.8.2",
+    "clsx": "^2.1.1",
+    "framer-motion": "^14.3.1",
+    "maath": "^0.10.8",
+    "next": "16.4.2",
+    "react": "19.3.1",
+    "react-dom": "19.3.1",
+    "react-icons": "^5.7.0",
+    "react-intersection-observer": "^11.0.1",
+    "tailwind-merge": "^3.6.0",
+    "three": "^0.186.1"
+  },
+  "devDependencies": {
+    "@types/node": "^26",
+    "@types/react": "19.3.0",
+    "@types/react-dom": "19.2.5",
+    "@types/three": "^0.186.0",
+    "autoprefixer": "^10.6.0",
+    "eslint": "^10.13.0",
+    "eslint-config-next": "16.4.0",
+    "postcss": "^8",
+    "tailwindcss": "^3.3.0",
+    "typescript": "^6"
+  }
+}
